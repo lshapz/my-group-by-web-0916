@@ -16,7 +16,7 @@ describe "#my_group_by" do
   end
 
   it "doesn't use #group_by" do     
-    expect_any_instance_of(Array).to_not receive(group_by)
+    expect_any_instance_of(Array).to_not receive(:group_by)
     numbers.my_group_by { |i| i%3 }
   end
 
