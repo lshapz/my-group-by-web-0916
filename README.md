@@ -20,7 +20,7 @@ resources: 1
 
 You will be building out Ruby's `#group_by` method. It shouldn't change the array or hash it's called on. Notice how it works on an array and on a hash? You'll be adding the method `my_group_by` to the Enumerable module, so that it can be called on both arrays and hashes.
 
-## About Rotate
+## About Group By
 
 Ruby's `group_by` method accepts a block. It returns a hash, the keys are the values that result from calling the block on each object, the values are arrays that include the element on which the block was called:
 
@@ -51,6 +51,8 @@ foods.my_group_by {|food, count| count >= 2}
 #     true  => [["carrot", 3], ["durian", 4]]
 #   }
 ```
+
+Notice, when it's called on a hash, it returns the key, value pairs in an array of `[key, value]`.
 
 ## Notes
 
