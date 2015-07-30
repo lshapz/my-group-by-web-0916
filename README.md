@@ -1,8 +1,4 @@
----
-tags: logic, cs, monkey patching, todo, custom methods
-languages: ruby
-resources: 1
----
+
 
 # My Group By
 
