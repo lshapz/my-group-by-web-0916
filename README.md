@@ -57,3 +57,5 @@ You may not call on Ruby's `#group_by` method to accomplish this task.
 ## Resources
 
 * [Ruby's Group By Method](http://ruby-doc.org/core-2.2.1/Enumerable.html#method-i-group_by)
+
+<a href='https://learn.co/lessons/my-group-by' data-visibility='hidden'>View this lesson on Learn.co</a>
